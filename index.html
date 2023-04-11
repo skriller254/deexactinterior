@@ -4,150 +4,182 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De Exact Interiors</title>
+    <title>dexactinteriors</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="position.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <div class = 'headerinterior'>
-        <nav class="animate__animated animate__fadeIn">
-            <div class="logo">
-                 De<span>Exact-Interiors</span>
-            </div>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="about.html">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Services</a>
-            </div>
-            <div class="icons">
-                <i class="fa fa-search"></i>
-                <i class="fa fa-bell"></i>
-            </div>
-        </nav>
-        <div class="htext">
-            <h1 class="animate__animated animate__fadeInUp">We Help<span>You To Make</span>Modern Interiors</h1>
-        </div>
-        <img src="images/image6.jpg" alt="sofa" class="animate__animated animate__zoomIn animate__delay-1s">
-    </div>
-</div>
+        <a href="#" class="logo">Dexact <span>Interiors.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#products" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#gallery" onclick="toggleMenu();">Gallery</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
 
-    <!-- 
-    <h1>Test Abouit</h1> -->
-    <nav class="animate__animated animate__fadeIn">
-        <div class="logo">
-             De<span>Exact-Interiors</span>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+     <div class="content">
+        <h2>We Help You To Make Modern Interiors</h2>
+        <a href="#products" class="button">About Us</a>
+     </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>Who we are</span></h2>
+                <p> We are a team of experienced interior designers committed to creating beautiful, functional spaces for our clients. Our mission is to bring your vision to life and make your home or office a place you love to be. We offer a wide range of interior design and decoration services, including space planning, furniture selection, color consultation, lighting design, and more. Our goal is to create a space that reflects your personality, style, and needs. <br><br><h2 class="titleText"><span>Why Choose Us</span></h2>At De Exact Interiors, we are committed to providing exceptional service and quality workmanship. We listen to your needs and work with you to create a space that exceeds your expectations. Our team is knowledgeable, experienced, and passionate about what we do.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBox">
+                    <img src="team.jpg" alt="logo">
+                </div>
+            </div>
         </div>
-        <div class="menu">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Services</a>
+    </section>
+    <section class="products" id="products">
+        <div class="title">
+         <h2 class="titleText"><span>Our Services</span></h2>
+            
         </div>
-        <div class="icons">
-            <i class="fa fa-search"></i>
-            <i class="fa fa-bell"></i>
+        <div class="content">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="commercial.jpg" alt="1ltr bottle">
+                </div>
+                <div class="text">
+                    <h3>Commercial Interior Design</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="image8.jpg" alt="5ltr bottle">
+                </div>
+                <div class="text">
+                    <h3>Residential Interior Design</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="gypsum.jpg" alt="5ltr bottle">
+                </div>
+                <div class="text">
+                    <h3>Gypsum Ceilings</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="office.jpg" alt="20ltr bottle">
+                </div>
+                <div class="text">
+                    <h3>Office & Home Renovations</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="cabinets.jpg" alt="20ltr bottle">
+                </div>
+                <div class="text">
+                    <h3>Cabinets & Fittings</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="consult.jpg" alt="20ltr bottle">
+                </div>
+                <div class="text">
+                    <h3>Consultancy Services</h3>
+                </div>
+            </div>
         </div>
-    </nav>
-   
-</header>
-<div class="about">
-  <div class="about-content">
-    <div class="about-section">
-      <div class="column">
-        <h2 class="animate__animated animate__fadeInUp">Who We Are</h2>
-        <p>We are a team of experienced interior designers committed to creating beautiful, functional spaces for our clients. Our mission is to bring your vision to life and make your home or office a place you love to be. We offer a wide range of interior design and decoration services, including space planning, furniture selection, color consultation, lighting design, and more. Our goal is to create a space that reflects your personality, style, and needs.</p>
-      </div>
-      <div class="column">
-        <img src="images/about.jpg" alt="Image Description">
-      </div>
-    </div>
-    <div class="about-section">
-      <div class="column">
-        <img src="images/why.jpg" alt="Image Description">
+        <div class="title">
+            <a href="#gallery" class="button">View Gallery</a>
         </div>
-      <div class="column">
-        
-        <h2 class="animate__animated animate__fadeInUp">Why Choose Us</h2>
-        <p class="animate__animated animate__fadeInUp">At De Exact Interiors, we are committed to providing exceptional service and quality workmanship. We listen to your needs and work with you to create a space that exceeds your expectations. Our team is knowledgeable, experienced, and passionate about what we do.</p>
+    </section>
+    <section>
+        <div class="gallery" id="gallery">
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="sofa">
+            </div>
+            <div class="gallery-item">
+                <img src="image3.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="image4.jpg" alt="Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="image5.jpg" alt="Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="image6.jpg" alt="Image 5">
+            </div>
+            <div class="gallery-item">
+                <img src="image7.jpg" alt="Image 5">
+            </div>
+            <div class="gallery-item">
+                <img src="image8.jpg" alt="Image 5">
+            </div>
+            <div class="gallery-item">
+                <img src="image9.jpg" alt="Image 5">
+            </div>
+            <div class="gallery-item">
+                <img src="image10.jpg" alt="Image 5">
+            </div>
+        </div>
+    </section>
+       <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>Contact Us</span></h2>
+            <p>You have a project? Or you need to consult with us?</p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+               <input type="text" placeholder="Name"> 
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email"> 
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Message"></textarea> 
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send"> 
+            </div>
+
+        </div>
+       </section>
+       <section class="contact-section">
+        <div class="container">
+            <div class="row">
+             <div class="col-md-4">
+                <h3>Our Contacts</h3>
+                <p>dexactinteriors@yahoo.com<br>Phone: 0724 586 538<br></p>
+            </div>
+            
+           
+        </div>
+        </section>
       
-      </div>
-    </div>
-  </div>
-</div>
+       <footer class="copyrighttext">
+        <p>Copyright 2023 dexactinteriors.co.ke All Rights Reserved. Designed By <a href="https://www.instagram.com/_mia.n0/">Skriller Studios</a></p>
+       </footer>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
 
-<style>
-  .about {
-    background-color: #f8f8f8;
-    padding: 50px 0;
-  }
-  
-  .about-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 50px;
-  }
-  
-  .column {
-    flex-basis: 50%;
-    padding: 0 20px;
-  }
-  
-  .column h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .column p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  .column img {
-    max-width: 100%;
-    height: auto;
-  }
-</style>
-
-<div class="gallery">
-    <div class="gallery-item">
-      <img src="images/image2.jpg" alt="sofa">
-    </div>
-    <div class="gallery-item">
-      <img src="images/image3.jpg" alt="Image 2">
-    </div>
-    <div class="gallery-item">
-      <img src="images/image4.jpg" alt="Image 3">
-    </div>
-    <div class="gallery-item">
-      <img src="images/image5.jpg" alt="Image 4">
-    </div>
-    <div class="gallery-item">
-      <img src="images/image6.jpg" alt="Image 5">
-    </div>
-    <div class="gallery-item">
-        <img src="images/image7.jpg" alt="Image 5">
-      </div>
-      <div class="gallery-item">
-        <img src="images/image8.jpg" alt="Image 5">
-      </div>
-      <div class="gallery-item">
-        <img src="images/image9.jpg" alt="Image 5">
-      </div>
-</div>
-      
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+    
 </body>
 </html>
